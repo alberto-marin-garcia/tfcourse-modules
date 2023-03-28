@@ -20,7 +20,7 @@ resource "aws_subnet" "web_server_subnet" {
   availability_zone       = var.aws_az
 
   # tags = {
-    Name = var.subnet_name
+    # Name = var.subnet_name
   # }
 }
 

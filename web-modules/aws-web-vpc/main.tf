@@ -19,9 +19,9 @@ resource "aws_subnet" "web_server_subnet" {
   map_public_ip_on_launch = true
   availability_zone       = var.aws_az
 
-  # tags = {
-    # Name = var.subnet_name
-  # }
+  tags = {
+    Name = var.subnet_name
+  }
 }
 
 resource "aws_internet_gateway" "web_server_igw" {

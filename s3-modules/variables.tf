@@ -8,6 +8,5 @@ variable bucket_name {
 variable "versioning" {
   description = "Enable versioning."
   type        = bool
-  default     = false
 }
 
